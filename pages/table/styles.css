@@ -1,0 +1,41 @@
+@media screen and (min-width: 450px) {
+    table {
+        font-size: 0.7em;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+tr {
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:first-of-type {
+    background-color: #6441a5;
+    color: #fff;
+}
+
+tr:last-of-type {
+    border-bottom: 10px solid #6441a5;
+}
+
+th, td {
+    padding: 12px 15px; 
+}
+
+th {
+    max-width: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+}

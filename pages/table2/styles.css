@@ -1,0 +1,30 @@
+table {
+    width: 80%;
+    height: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+tr {
+    background-color: #fff;
+    color: #000000;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:first-of-type {
+    background-color: #6441a5;
+    color: white;
+}
+
+tr:last-of-type {
+    border-bottom: 2px solid #161616;
+}
+
+th, td {
+    padding: 12px 15px; 
+}

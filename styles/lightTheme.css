@@ -1,0 +1,8 @@
+:root * {
+    --primary: #6441a5;
+    --secondary: #ffffff;
+    --tertiary: #f0f0f0;
+    --primaryText: #fff;
+    --secondaryText: #000;
+    --tertiaryText: #000;
+}
