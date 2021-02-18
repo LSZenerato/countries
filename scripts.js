@@ -7,10 +7,10 @@ function loadContent(option) {
     let data = null;
     switch (option) {
         case "Countries":
-            data = "pages/table/index.html";
+            data = "pages/countries/index.html";
             break;
-        case "Test page":
-            data = "pages/table2/index.html";
+        case "Dinossaur":
+            data = "pages/dinogame/index.html";
             break;
         default:
             break;
@@ -19,12 +19,8 @@ function loadContent(option) {
     headerTitle.textContent = option;
     document.title = option;
     
-    content.innerHTML='<object style="width: 100%; height: Calc(100% - 80px)" type="text/html" data=' + data + '></object>';
+    content.innerHTML='<object style="width: 100%; height: Calc(100vh - 80px)" type="text/html" data=' + data + '></object>';
     closeNav();
-}
-
-function loadHeaderTitle(title) {
-   
 }
 
 function openNav() {
