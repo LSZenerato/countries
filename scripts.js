@@ -12,6 +12,9 @@ function loadContent(option) {
         case "Dinossaur":
             data = "pages/dinogame/index.html";
             break;
+        case "AimTrainning":
+            data = "pages/aim/index.html";
+            break;
         default:
             break;
     } 

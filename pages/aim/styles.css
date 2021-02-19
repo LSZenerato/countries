@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    cursor: crosshair;
+    user-select: none;
+}
+
+#background {
+    background-image: url("../../assets/csgo_bg.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+#menu {
+    top: 40%;
+    height: 100px;
+    width: 300px;
+    border: solid 1px black;
+    background-color: #ffffff30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#shoot {
+    position: fixed;
+    background-image: url("../../assets/gunshot.png");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+}
+
+#missed {
+    position: fixed;
+    background-image: url("../../assets/gunshot_error.png");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+}
+
+#timer {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+    z-index: 1;
+}
+
+#score {
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: black;
+    z-index: 1;
+}
+
+#accuracy {
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 10px;
+    color: black;
+    z-index: 1;
+}
+
+#scenario-div {
+    height: 100%;
+    width: 100%;
+}
+
+#target {
+    position: fixed;
+    /* background-color: gray; */
+    background-image: url("../../assets/tr_csgo.png");
+    background-size: cover;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    z-index: 4;
+}
